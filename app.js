@@ -10,5 +10,5 @@ app.router = Router;
 //This way, you can avoid potential issues with trying to access elements that haven't been loaded yet.
 window.addEventListener("DOMContentLoaded", () => {
   loadData();
-  Router.init();
+  app.router.init();
 });
